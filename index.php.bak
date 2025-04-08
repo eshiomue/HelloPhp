@@ -1,0 +1,14 @@
+<html>
+<head></head>
+<body>
+<h1>Hi</h1>
+
+<?php
+ $today = date('F d, Y H:m:i');
+ echo($today);
+ $name = "Philip";
+?>
+
+<p> Hello, today is <?php echo(date('F d, Y H:m:i')); ?>. My name is echo($name);
+</body>
+</html>
